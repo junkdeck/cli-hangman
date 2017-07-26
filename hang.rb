@@ -105,9 +105,7 @@ load_choice = gets.chomp.strip.downcase
 hang = hang.load_game if load_choice == "y"
 
 hang.main_loop do
-  puts hang.word
   guess = hang.get_guess
   guess_result = hang.check_guess(guess)
   hang.tries_left -= 1 unless guess_result
-  puts hang.feedback.join
 end
