@@ -1,0 +1,17 @@
+--- !ruby/object:Game
+word: "     l    "
+tries_left: 6
+feedback:
+- s
+- c
+- h
+- o
+- o
+- _
+- w
+- o
+- r
+- k
+game_running: true
+game_win: false
+errmsg: 
